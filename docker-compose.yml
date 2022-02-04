@@ -23,7 +23,7 @@ services:
     restart: unless-stopped
     ports:
       - 80:80
-      - 443:443
+      #- 443:443
     volumes:
       - nextcloud:/var/www/html
       #- ./data:/var/www/html/data # trzeba sprawdzić
